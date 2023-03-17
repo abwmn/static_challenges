@@ -15,9 +15,24 @@ header h1 {
 }
 
 header nav {
-  font-size: 18px;
   float: right;
+  font-size: 16px;
   margin-top: 25px;
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+
+div {
+  background: darkslategray;
+  height: 50px;
+}
+
+div nav ul li{
+  color: white;
+  float: right;
+  font-size: 16px;
+  padding: 0 20px;
+  margin-top: 15px;
   margin-bottom: 15px;
   text-decoration: underline;
 }
