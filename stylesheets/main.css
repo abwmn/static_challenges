@@ -1,9 +1,12 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
   background: darkred;
   color: white;
   height: 75px;
   padding: 0 25px;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold
 }
 
@@ -12,6 +15,7 @@ header h1 {
   float: left;
   margin-top: 20px;
   margin-bottom: 15px;
+  font-weight: bold
 }
 
 header nav {
@@ -35,4 +39,32 @@ div nav ul li{
   margin-top: 15px;
   margin-bottom: 15px;
   text-decoration: underline;
+}
+
+section {
+  float: left;
+  margin: 0 1.5%;
+  width: 60%;
+  text-align: left;
+}
+
+section img {
+  display: inline-block;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+section h2 {
+  font-size: 22px;
+  font-weight: bold;
+  padding-left: 25px;
+  padding-bottom: 20px;
+}
+
+section .text {
+  font-size: 15px;
+  padding-left: 25px;
+  padding-bottom: 20px;
 }
