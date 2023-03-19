@@ -15,7 +15,6 @@ header h1 {
   float: left;
   margin-top: 20px;
   margin-bottom: 15px;
-  font-weight: bold
 }
 
 header nav {
@@ -67,4 +66,20 @@ section .text {
   font-size: 15px;
   padding-left: 25px;
   padding-bottom: 20px;
+}
+
+footer {
+  clear: both;
+  background: #403B3B;
+  height: 75px;
+  padding: 0 25px;
+}
+
+footer p {
+  color: white;
+  font-size: 15px;
+  float: left;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
