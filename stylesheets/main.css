@@ -62,6 +62,24 @@ section h2 {
   padding-bottom: 20px;
 }
 
+section nav {
+  float: right;
+  font-size: 16px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+
+section nav .link {
+  padding-bottom: 40px;
+}
+
+section nav h4 {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
 section .text {
   font-size: 15px;
   padding-left: 25px;
@@ -70,7 +88,7 @@ section .text {
 
 footer {
   clear: both;
-  background: #403B3B;
+  background: darkslategray;
   height: 75px;
   padding: 0 25px;
 }
